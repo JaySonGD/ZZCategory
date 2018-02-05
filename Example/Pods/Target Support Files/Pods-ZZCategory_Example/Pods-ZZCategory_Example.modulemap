@@ -1,0 +1,6 @@
+framework module Pods_ZZCategory_Example {
+  umbrella header "Pods-ZZCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
