@@ -557,36 +557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0654A448CAF547EFD88275206548A35D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B744A530FA4A3903CCA81FBC97D718E /* ZZCategory.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZCategory/ZZCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZCategory/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZCategory/ZZCategory.modulemap";
-				PRODUCT_NAME = ZZCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		193DBD5B37A3F5519831D7935AB5F389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
@@ -616,6 +586,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1E1B0D4FFFF3F0B6470AB004A358859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B744A530FA4A3903CCA81FBC97D718E /* ZZCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZCategory/ZZCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZCategory/ZZCategory.modulemap";
+				PRODUCT_NAME = ZZCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		20FC4C69842DBA954ED9067C0A8E1F5A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -859,7 +858,7 @@
 			};
 			name = Debug;
 		};
-		9B1EDE8363EE1997A1661EA760DAAA66 /* Debug */ = {
+		91D32112C2DE79FC362352E8ED80DB3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B744A530FA4A3903CCA81FBC97D718E /* ZZCategory.xcconfig */;
 			buildSettings = {
@@ -875,7 +874,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ZZCategory/ZZCategory-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ZZCategory/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZZCategory/ZZCategory.modulemap";
 				PRODUCT_NAME = ZZCategory;
@@ -883,10 +882,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B0720AC63DC24AA3496F3E6370F3830E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -944,8 +944,8 @@
 		756CBD316B31FA4F9D25EEEA855289E8 /* Build configuration list for PBXNativeTarget "ZZCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B1EDE8363EE1997A1661EA760DAAA66 /* Debug */,
-				0654A448CAF547EFD88275206548A35D /* Release */,
+				1E1B0D4FFFF3F0B6470AB004A358859C /* Debug */,
+				91D32112C2DE79FC362352E8ED80DB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

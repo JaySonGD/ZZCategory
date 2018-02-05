@@ -1,9 +1,9 @@
 {
   "name": "ZZCategory",
   "version": "0.1.0",
-  "summary": "A short description of ZZCategory.",
+  "summary": "一些常用的分类.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/czljcb@163.com/ZZCategory",
+  "homepage": "https://github.com/JaySonGD/ZZCategory",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "czljcb@163.com": "caozhi@mhace.com"
   },
   "source": {
-    "git": "https://github.com/czljcb@163.com/ZZCategory.git",
+    "git": "https://github.com/JaySonGD/ZZCategory.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "ZZCategory/Classes/**/*",
   "dependencies": {
