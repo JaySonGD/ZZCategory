@@ -8,5 +8,6 @@
 #import "UIButton+Block.h"
 #import "UINavigationController+FullscreenPopGesture.h"
 #import "UITabBar+CustomBadge.h"
+#import "CALayer+PauseAimate.h"
 
 

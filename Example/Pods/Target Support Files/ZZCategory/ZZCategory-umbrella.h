@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CALayer+PauseAimate.h"
 #import "MBProgressHUD+iShare.h"
 #import "NSError+Message.h"
 #import "UIButton+Block.h"
