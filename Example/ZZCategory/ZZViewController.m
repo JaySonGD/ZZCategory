@@ -8,6 +8,8 @@
 
 #import "ZZViewController.h"
 
+#import <ZZCategory/ZZCategory.h>
+
 @interface ZZViewController ()
 
 @end
