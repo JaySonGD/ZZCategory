@@ -12,7 +12,7 @@
 
 #import "MBProgressHUD+iShare.h"
 #import "NSError+Message.h"
-#import "UIControl+Block.h"
+#import "UIButton+Block.h"
 #import "UINavigationController+FullscreenPopGesture.h"
 #import "UITabBar+CustomBadge.h"
 #import "UIView+Block.h"
