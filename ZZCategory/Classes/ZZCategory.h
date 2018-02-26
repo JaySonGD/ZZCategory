@@ -10,4 +10,7 @@
 #import "UITabBar+CustomBadge.h"
 #import "CALayer+PauseAimate.h"
 
+#import "UIColor+Color.h"
 
+#import "UIDevice+Device.h"
+#import "UIImage+Image.h"

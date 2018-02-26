@@ -15,6 +15,8 @@
 #import "NSError+Message.h"
 #import "UIButton+Block.h"
 #import "UIColor+Color.h"
+#import "UIDevice+Device.h"
+#import "UIImage+Image.h"
 #import "UINavigationController+FullscreenPopGesture.h"
 #import "UITabBar+CustomBadge.h"
 #import "UIView+Block.h"

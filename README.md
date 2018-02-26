@@ -17,7 +17,21 @@ ZZCategory is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
+source 'https://github.com/JaySonGD/podspec.git'
+
+platform :ios, '9.0'
+
+target 'XXX' do
+# Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+# use_frameworks!
+
+# Pods for Pod
 pod 'ZZCategory'
+
+end
+
 ```
 
 ## Author

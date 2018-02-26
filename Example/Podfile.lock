@@ -1,6 +1,6 @@
 PODS:
   - MBProgressHUD (1.1.0)
-  - ZZCategory (0.1.5):
+  - ZZCategory (0.1.7):
     - MBProgressHUD
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  ZZCategory: c4a53b0d8db1e1c2813f867a53b3fae99951662e
+  ZZCategory: d19ed0903330b6f6daf1167780dbf43d0cfe32d6
 
 PODFILE CHECKSUM: 7a11a0950120f8e284b31a174a7ceed8a16f1145
 

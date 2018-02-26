@@ -7,41 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05163032B8C5F50849C644C7A55ECC1F /* ZZCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09437ED0F6500E202C5B935A19D2B63A /* ZZCategory-dummy.m */; };
 		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */; };
-		1004C8CFDE1240FAE620EFF9F658D3EA /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FD2446B047D30911EFF4B0DBDF6D0B /* UIColor+Color.m */; };
 		13F4E11FAEF4F872B6F84E487B644AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
-		1669009E204A0C6FF9CD3F45AF3BC9B4 /* MBProgressHUD+iShare.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC44E34F8E8F326A82B92716894981A /* MBProgressHUD+iShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A810CA08DCF7140F48080B54C99EB65 /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F09265204A6E97D4D3543A7AAA51485 /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A885204E22C97597CE42097FFC408BE /* UINavigationController+FullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BA6D5C79DFA4DBDCD56EAF231FF4A9 /* UINavigationController+FullscreenPopGesture.m */; };
 		201AC021639EBD771747E1B68D6C11F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B92937F2374B55526C8CFF9BA1C88AE /* UINavigationController+FullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 234F2330C8273E1756AD81C7D21DC1DD /* UINavigationController+FullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38DDA0CA3A7CE2F157A79EAE4E02331B /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B32AF256DD34AB7E9856287A315A7 /* UITabBar+CustomBadge.m */; };
-		3C84EDAAED1E0A41C0EFC8EE0CB8A10E /* ZZCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE2860C2660CF20F998B76FC4AF6FE5 /* ZZCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DEAFC586297A5F3ADC5E5146FAA2CC5 /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F184DD2E3F4F9819FCA45EC893C32 /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		408D82C87808F8F540BA69E5DC544C78 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 832524DA7A82F70183096F2DA07B280B /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1692339A86F90FEDC795FFD5B4D444 /* NSError+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = A878B6F0A65967EE1323793146FF812F /* NSError+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		367D901A1BD9C19A96216D21AC45F421 /* UIView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 593AA3E492615EEE8A2728FFEF177E17 /* UIView+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FADDCDD9C590F14E61896F319DBC6B7 /* UIDevice+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F239C5454D7A1B8527E2E990D79B7C /* UIDevice+Device.m */; };
 		439F33B5DAFB3475D8BBD6E298D83E78 /* Pods-ZZCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9473587F80735A5D12405E5BD69E1F2 /* Pods-ZZCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46B4BA393D3CC42F6C25F57706546D57 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = C705A327C68A53204FBBF10FCA4A8CC0 /* CALayer+PauseAimate.m */; };
-		5D548A598CF164C62A435FA3A0F0A9A1 /* UITabBar+CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AE3DCB1085070DDBB1D985DA4C8B70 /* UITabBar+CustomBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F27AA5B0448FA0800C4E110F1285E7 /* ZZCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A7259B1C0E6F0798FF261E3C22992 /* ZZCategory-dummy.m */; };
+		5796C30FF9DF0CD85A4731855CC18EDE /* UINavigationController+FullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = D26FA8AD9B899380ADE3C5FB6276CC22 /* UINavigationController+FullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */; };
-		62CB66318FA743CF3420E043D3648B2B /* UIView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 67379ACDDCA072591543A748245A5638 /* UIView+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62F4F78ABAEAFBF8BD406C355691EEF9 /* NSError+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 106230F59949C197C7E0299C16721629 /* NSError+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63ACE2A3AB39D528867EDCD593BE428A /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AEA950C8AB2F5B61322093B63239C5 /* UIColor+Color.m */; };
+		6996D78695ADB71459FD7EC747470EA4 /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 7782A233032401B86E55B93E1827AA9D /* UIImage+Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1A9DAD794F922FFC91F2CE5AEFFED4 /* ZZCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0976AD04ECEEFBC78094659813415405 /* ZZCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E73FBE44003E3A2C192E3BB84289996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
-		863BBF9F5BC93F171E97297C1B65CFA3 /* MBProgressHUD+iShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49CA310107F3589CD6DD4F6E714CC3 /* MBProgressHUD+iShare.m */; };
+		8410A9391563CCEC3A414A6BC116AD7C /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C761B8C89EF24D75066FEC359CC7E0 /* UIView+Loading.m */; };
+		85DA18CD697E360F40B153B78B02132B /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9773038DAE3C5C528F10A7B555C5193A /* CALayer+PauseAimate.m */; };
 		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
-		8A6DD157FBF731EEA8F52DAB4BCAF078 /* UIView+Loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 3728D56EEB331E6F17A66D2136C460D3 /* UIView+Loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0B239366950D9E18CF0050CCA40323 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA75F6550FD470C06D5385B19A95969 /* UIImage+Image.m */; };
 		8D8F5B14A9FCB2B7DAC513893138D168 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */; };
-		90204DA4C2282E16FA362AE633F67886 /* UIView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = CE95A268ABAB6D4524A266D78A10C842 /* UIView+Block.m */; };
-		A32F2BF8EFD30F5C49E910DD6C0149AE /* UINavigationController+FullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A5744133D2BC850CFF431E6FF4FD950E /* UINavigationController+FullscreenPopGesture.m */; };
+		96A6789C1A20348C8F0C29FFF37BD000 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E07C39AE72D1E1A05A1208919BDF55E /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		977FD43163B34AE6773B49F7478B2A92 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C19B5895972DA611E2ADD5B95907AED0 /* UITabBar+CustomBadge.m */; };
 		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC0B12E4BAB09B11C42185511E64BE10 /* ZZCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91CFA2A56EE89B53A83E41E6C70EA36 /* ZZCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B23AE89FC360843F7F6CDF01CEA01C8F /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 62013C3951D8A2F9D62CD1072CAABB64 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB6A39F017A57DB54BC18B080694C5C7 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = BC326F6FBBF3B925883DC93142CAA01D /* UIButton+Block.m */; };
+		B36F47DE3ABB83A3B51850901799F021 /* UIView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E51F7874D927A58F148ADCF2761DAA42 /* UIView+Block.m */; };
+		B531B7BA90EDC40EACE0B5EC16FBC8EB /* ZZCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC319FD4673C528BF0D87FC009E644D /* ZZCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDDAD7E6875C7AEB1BCCF8F0DA47BB2E /* Pods-ZZCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE0EA1A91731569402931368B07F77F /* Pods-ZZCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE173D6CCB47C60034F8A1044DEA547B /* UITabBar+CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E36DFD708E11837696839E4A90B80D /* UITabBar+CustomBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */; };
+		C145C8348E9C59EF2F28DCD516995B53 /* MBProgressHUD+iShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C52E0DFF36018F9408E00842D8A2DF /* MBProgressHUD+iShare.m */; };
+		C44BC58C1F73CF7CB84F371A6CB0EA75 /* UIView+Loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 8028A293A775572DD580B8EE08B43EFF /* UIView+Loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E069B8E0026C8220D91E8569284022 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2452FC365D9018886A702AACBA73B050 /* UIButton+Block.m */; };
+		CBA0E16C028E82E5A80BCF3174712C09 /* NSError+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B2DF29A492971249C5D3E8C39AAF4 /* NSError+Message.m */; };
+		CBCDBCDFFC2C3177E628FEF1EB5F5A83 /* MBProgressHUD+iShare.h in Headers */ = {isa = PBXBuildFile; fileRef = A496397E21A7D971B818A1D8529B0C4E /* MBProgressHUD+iShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFB609EE8990F38CB157E6EE48A7CB9B /* Pods-ZZCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F8ADD0C885A39A2572C230DB735A /* Pods-ZZCategory_Example-dummy.m */; };
-		DE6B29F38C0D4354CB2FE39ED98ACEAD /* NSError+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FE90BAF97DF2BE20E32A7B37A711C /* NSError+Message.m */; };
-		DFA28F52DFCFF78763C72C32B01270CE /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F488941347F50A13954CECF2ED8A27 /* UIView+Loading.m */; };
+		D78E9F971EEA09B6B2F3FDA12A79398C /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD3E881EAEBBF7A2AE2968D6C219FB9 /* UIDevice+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBE7CA2E81244C4BF56274567764FA3 /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FB43093BF6B4C53C8BB6294A957396 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FED88636E88C8AD5B02809CC8C60D987 /* Pods-ZZCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12231ACEB9DFCF5D9A0A248BE7CE830A /* Pods-ZZCategory_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -71,70 +75,74 @@
 
 /* Begin PBXFileReference section */
 		04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		04AE3DCB1085070DDBB1D985DA4C8B70 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CustomBadge.h"; path = "ZZCategory/Classes/UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
-		066AE5744908E6BD1A1095C51369F9B9 /* Pods_ZZCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09437ED0F6500E202C5B935A19D2B63A /* ZZCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZCategory-dummy.m"; sourceTree = "<group>"; };
+		066AE5744908E6BD1A1095C51369F9B9 /* Pods_ZZCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZCategory_Tests.framework; path = "Pods-ZZCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		069BF723C1AEDB55319718ABDE5E85A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		06C034192918758ADD852BC9982A176F /* ZZCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-prefix.pch"; sourceTree = "<group>"; };
+		0976AD04ECEEFBC78094659813415405 /* ZZCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCategory.h; path = ZZCategory/Classes/ZZCategory.h; sourceTree = "<group>"; };
 		0A1B7DFC3B6F7518E50289D8129530E8 /* Pods-ZZCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0CF45F15BEA1D33A11951BA202E6E32C /* ZZCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-prefix.pch"; sourceTree = "<group>"; };
-		106230F59949C197C7E0299C16721629 /* NSError+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+Message.h"; path = "ZZCategory/Classes/NSError+Message.h"; sourceTree = "<group>"; };
+		11BA6D5C79DFA4DBDCD56EAF231FF4A9 /* UINavigationController+FullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FullscreenPopGesture.m"; path = "ZZCategory/Classes/UINavigationController+FullscreenPopGesture.m"; sourceTree = "<group>"; };
 		12231ACEB9DFCF5D9A0A248BE7CE830A /* Pods-ZZCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZCategory_Tests-dummy.m"; sourceTree = "<group>"; };
+		127A7259B1C0E6F0798FF261E3C22992 /* ZZCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZCategory-dummy.m"; sourceTree = "<group>"; };
 		14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2298F0E3B4F1D45DC9C6B7362C31E26A /* Pods-ZZCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		234F2330C8273E1756AD81C7D21DC1DD /* UINavigationController+FullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FullscreenPopGesture.h"; path = "ZZCategory/Classes/UINavigationController+FullscreenPopGesture.h"; sourceTree = "<group>"; };
-		2AABA6E8B0821BD1585914EE1A0C493B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2452FC365D9018886A702AACBA73B050 /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "ZZCategory/Classes/UIButton+Block.m"; sourceTree = "<group>"; };
 		2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2F09265204A6E97D4D3543A7AAA51485 /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Color.h"; path = "ZZCategory/Classes/UIColor+Color.h"; sourceTree = "<group>"; };
+		35F239C5454D7A1B8527E2E990D79B7C /* UIDevice+Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Device.m"; path = "ZZCategory/Classes/UIDevice+Device.m"; sourceTree = "<group>"; };
 		3654210BDAAA2B688A5B2072E5B13C77 /* Pods-ZZCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3728D56EEB331E6F17A66D2136C460D3 /* UIView+Loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Loading.h"; path = "ZZCategory/Classes/UIView+Loading.h"; sourceTree = "<group>"; };
-		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		3E07C39AE72D1E1A05A1208919BDF55E /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "ZZCategory/Classes/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		49E3DA396CF770C4EECE4CFB39389490 /* Pods-ZZCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A3B0FC6683ACCCFC5EE437BAF39656F /* Pods-ZZCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZCategory_Example-resources.sh"; sourceTree = "<group>"; };
+		4AC319FD4673C528BF0D87FC009E644D /* ZZCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-umbrella.h"; sourceTree = "<group>"; };
 		4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		4CC22DD3F3EEE4D8A0D3C362C2F883EC /* Pods-ZZCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5A49CA310107F3589CD6DD4F6E714CC3 /* MBProgressHUD+iShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+iShare.m"; path = "ZZCategory/Classes/MBProgressHUD+iShare.m"; sourceTree = "<group>"; };
+		4DBADD3C6AA63A0D48941399B2BADA90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		533B2DF29A492971249C5D3E8C39AAF4 /* NSError+Message.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+Message.m"; path = "ZZCategory/Classes/NSError+Message.m"; sourceTree = "<group>"; };
+		593AA3E492615EEE8A2728FFEF177E17 /* UIView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Block.h"; path = "ZZCategory/Classes/UIView+Block.h"; sourceTree = "<group>"; };
 		5D7088CD4821130D8334297BFFA81864 /* Pods-ZZCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		62013C3951D8A2F9D62CD1072CAABB64 /* UIButton+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "ZZCategory/Classes/UIButton+Block.h"; sourceTree = "<group>"; };
-		63638FEA115AD8F3F067BAFB64E3E787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		67379ACDDCA072591543A748245A5638 /* UIView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Block.h"; path = "ZZCategory/Classes/UIView+Block.h"; sourceTree = "<group>"; };
-		68F5B3DB94F4874519DDDF4273303B3C /* ZZCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZZCategory.podspec; sourceTree = "<group>"; };
+		60AEA950C8AB2F5B61322093B63239C5 /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Color.m"; path = "ZZCategory/Classes/UIColor+Color.m"; sourceTree = "<group>"; };
+		64FB43093BF6B4C53C8BB6294A957396 /* UIButton+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "ZZCategory/Classes/UIButton+Block.h"; sourceTree = "<group>"; };
+		66C52E0DFF36018F9408E00842D8A2DF /* MBProgressHUD+iShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+iShare.m"; path = "ZZCategory/Classes/MBProgressHUD+iShare.m"; sourceTree = "<group>"; };
 		6B278DEBF3D0DC1C3070F0CF39FB338B /* Pods-ZZCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD3E881EAEBBF7A2AE2968D6C219FB9 /* UIDevice+Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Device.h"; path = "ZZCategory/Classes/UIDevice+Device.h"; sourceTree = "<group>"; };
 		72A1533110E5F2BCA2DFB3F6A6677ED0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EF3D339B1E8C3214397DB0EA218C58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B1F8ADD0C885A39A2572C230DB735A /* Pods-ZZCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZCategory_Example-dummy.m"; sourceTree = "<group>"; };
-		789FE90BAF97DF2BE20E32A7B37A711C /* NSError+Message.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+Message.m"; path = "ZZCategory/Classes/NSError+Message.m"; sourceTree = "<group>"; };
-		7D72314B9D6A23B058FE4378E5CE3737 /* ZZCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZCategory.xcconfig; sourceTree = "<group>"; };
+		7782A233032401B86E55B93E1827AA9D /* UIImage+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image.h"; path = "ZZCategory/Classes/UIImage+Image.h"; sourceTree = "<group>"; };
 		7FE16AAB09D3188A1F54C4B7C7934384 /* Pods-ZZCategory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZCategory_Tests-resources.sh"; sourceTree = "<group>"; };
+		8028A293A775572DD580B8EE08B43EFF /* UIView+Loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Loading.h"; path = "ZZCategory/Classes/UIView+Loading.h"; sourceTree = "<group>"; };
 		8095D7E65DA1D65C9BC3AEA70AA2CD8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8192753EDF2AC995431AB3E04EA11F46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		832524DA7A82F70183096F2DA07B280B /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "ZZCategory/Classes/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
 		874500691DF7A25D82624B519FFC0C77 /* Pods-ZZCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87E4E93FDFE9A8395A9CBDE476A5B61B /* Pods-ZZCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		89E36727E371AD84987A3F5ADE28FB8D /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E36DFD708E11837696839E4A90B80D /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CustomBadge.h"; path = "ZZCategory/Classes/UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
+		89E36727E371AD84987A3F5ADE28FB8D /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		8CE2860C2660CF20F998B76FC4AF6FE5 /* ZZCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCategory.h; path = ZZCategory/Classes/ZZCategory.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F1A1089439E45A02AEDAAB613B169D /* Pods-ZZCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZZCategory_Example.modulemap"; sourceTree = "<group>"; };
-		A45F184DD2E3F4F9819FCA45EC893C32 /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Color.h"; path = "ZZCategory/Classes/UIColor+Color.h"; sourceTree = "<group>"; };
-		A5744133D2BC850CFF431E6FF4FD950E /* UINavigationController+FullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FullscreenPopGesture.m"; path = "ZZCategory/Classes/UINavigationController+FullscreenPopGesture.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9773038DAE3C5C528F10A7B555C5193A /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "ZZCategory/Classes/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		9F94A5ADC632E646E9F991692AE21B2C /* ZZCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZCategory.xcconfig; sourceTree = "<group>"; };
+		A2F1A1089439E45A02AEDAAB613B169D /* Pods-ZZCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZZCategory_Example.modulemap"; sourceTree = "<group>"; };
+		A496397E21A7D971B818A1D8529B0C4E /* MBProgressHUD+iShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+iShare.h"; path = "ZZCategory/Classes/MBProgressHUD+iShare.h"; sourceTree = "<group>"; };
 		A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		ADA7985917B98533CCB8EA9BB5BE9FF5 /* ZZCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZZCategory.modulemap; sourceTree = "<group>"; };
+		A878B6F0A65967EE1323793146FF812F /* NSError+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+Message.h"; path = "ZZCategory/Classes/NSError+Message.h"; sourceTree = "<group>"; };
 		AE46FF64093AFB2D9A6F0125087417CB /* Pods-ZZCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2FD2446B047D30911EFF4B0DBDF6D0B /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Color.m"; path = "ZZCategory/Classes/UIColor+Color.m"; sourceTree = "<group>"; };
 		B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		BA6D4348EA6C8F2432898273D71C9D1E /* Pods-ZZCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZZCategory_Tests.modulemap"; sourceTree = "<group>"; };
-		BC06908322A7B31102F95BF0D9F04352 /* ZZCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC326F6FBBF3B925883DC93142CAA01D /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "ZZCategory/Classes/UIButton+Block.m"; sourceTree = "<group>"; };
-		BFEB3987739FD85925ABF763B78D2D81 /* Pods_ZZCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6D4348EA6C8F2432898273D71C9D1E /* Pods-ZZCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZZCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		BC06908322A7B31102F95BF0D9F04352 /* ZZCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZCategory.framework; path = ZZCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEB3987739FD85925ABF763B78D2D81 /* Pods_ZZCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZCategory_Example.framework; path = "Pods-ZZCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15A9010C1E37A33429F14347747C488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C705A327C68A53204FBBF10FCA4A8CC0 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "ZZCategory/Classes/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		CE95A268ABAB6D4524A266D78A10C842 /* UIView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Block.m"; path = "ZZCategory/Classes/UIView+Block.m"; sourceTree = "<group>"; };
-		D3F488941347F50A13954CECF2ED8A27 /* UIView+Loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Loading.m"; path = "ZZCategory/Classes/UIView+Loading.m"; sourceTree = "<group>"; };
-		DBC44E34F8E8F326A82B92716894981A /* MBProgressHUD+iShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+iShare.h"; path = "ZZCategory/Classes/MBProgressHUD+iShare.h"; sourceTree = "<group>"; };
+		C19B5895972DA611E2ADD5B95907AED0 /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CustomBadge.m"; path = "ZZCategory/Classes/UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		D26FA8AD9B899380ADE3C5FB6276CC22 /* UINavigationController+FullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FullscreenPopGesture.h"; path = "ZZCategory/Classes/UINavigationController+FullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D6C761B8C89EF24D75066FEC359CC7E0 /* UIView+Loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Loading.m"; path = "ZZCategory/Classes/UIView+Loading.m"; sourceTree = "<group>"; };
 		DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE0EA1A91731569402931368B07F77F /* Pods-ZZCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E91CFA2A56EE89B53A83E41E6C70EA36 /* ZZCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-umbrella.h"; sourceTree = "<group>"; };
+		E51F7874D927A58F148ADCF2761DAA42 /* UIView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Block.m"; path = "ZZCategory/Classes/UIView+Block.m"; sourceTree = "<group>"; };
 		E9473587F80735A5D12405E5BD69E1F2 /* Pods-ZZCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZCategory_Example-umbrella.h"; sourceTree = "<group>"; };
 		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ED2B90FD49CEA283641FB1C11192015C /* ZZCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZZCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F109818F87AA7249349B9ABB1378E0BF /* ZZCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZZCategory.modulemap; sourceTree = "<group>"; };
 		F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		F93B32AF256DD34AB7E9856287A315A7 /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CustomBadge.m"; path = "ZZCategory/Classes/UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		FAA75F6550FD470C06D5385B19A95969 /* UIImage+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image.m"; path = "ZZCategory/Classes/UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,20 +184,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A8FDB5F4C497626394786A3E7C975B3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AABA6E8B0821BD1585914EE1A0C493B /* Info.plist */,
-				ADA7985917B98533CCB8EA9BB5BE9FF5 /* ZZCategory.modulemap */,
-				7D72314B9D6A23B058FE4378E5CE3737 /* ZZCategory.xcconfig */,
-				09437ED0F6500E202C5B935A19D2B63A /* ZZCategory-dummy.m */,
-				0CF45F15BEA1D33A11951BA202E6E32C /* ZZCategory-prefix.pch */,
-				E91CFA2A56EE89B53A83E41E6C70EA36 /* ZZCategory-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZCategory";
-			sourceTree = "<group>";
-		};
 		264B2A09F2FBDB30BE22F6CDF95DCCD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,14 +193,6 @@
 				BC06908322A7B31102F95BF0D9F04352 /* ZZCategory.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		31E3A29F52735F490C4BFB22405E84DB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				435218BDC54821D3BC30DD8113DFD437 /* ZZCategory */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3F4B74EAA055C048F4D141BE26A90BE3 /* Pods-ZZCategory_Example */ = {
@@ -236,30 +222,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		435218BDC54821D3BC30DD8113DFD437 /* ZZCategory */ = {
+		48AD10C426882274957CC790CD3E7906 /* ZZCategory */ = {
 			isa = PBXGroup;
 			children = (
-				832524DA7A82F70183096F2DA07B280B /* CALayer+PauseAimate.h */,
-				C705A327C68A53204FBBF10FCA4A8CC0 /* CALayer+PauseAimate.m */,
-				DBC44E34F8E8F326A82B92716894981A /* MBProgressHUD+iShare.h */,
-				5A49CA310107F3589CD6DD4F6E714CC3 /* MBProgressHUD+iShare.m */,
-				106230F59949C197C7E0299C16721629 /* NSError+Message.h */,
-				789FE90BAF97DF2BE20E32A7B37A711C /* NSError+Message.m */,
-				62013C3951D8A2F9D62CD1072CAABB64 /* UIButton+Block.h */,
-				BC326F6FBBF3B925883DC93142CAA01D /* UIButton+Block.m */,
-				A45F184DD2E3F4F9819FCA45EC893C32 /* UIColor+Color.h */,
-				B2FD2446B047D30911EFF4B0DBDF6D0B /* UIColor+Color.m */,
-				234F2330C8273E1756AD81C7D21DC1DD /* UINavigationController+FullscreenPopGesture.h */,
-				A5744133D2BC850CFF431E6FF4FD950E /* UINavigationController+FullscreenPopGesture.m */,
-				04AE3DCB1085070DDBB1D985DA4C8B70 /* UITabBar+CustomBadge.h */,
-				F93B32AF256DD34AB7E9856287A315A7 /* UITabBar+CustomBadge.m */,
-				67379ACDDCA072591543A748245A5638 /* UIView+Block.h */,
-				CE95A268ABAB6D4524A266D78A10C842 /* UIView+Block.m */,
-				3728D56EEB331E6F17A66D2136C460D3 /* UIView+Loading.h */,
-				D3F488941347F50A13954CECF2ED8A27 /* UIView+Loading.m */,
-				8CE2860C2660CF20F998B76FC4AF6FE5 /* ZZCategory.h */,
-				5F5C75D2705810347EEB0E2E6EDDE6A9 /* Pod */,
-				0A8FDB5F4C497626394786A3E7C975B3 /* Support Files */,
+				3E07C39AE72D1E1A05A1208919BDF55E /* CALayer+PauseAimate.h */,
+				9773038DAE3C5C528F10A7B555C5193A /* CALayer+PauseAimate.m */,
+				A496397E21A7D971B818A1D8529B0C4E /* MBProgressHUD+iShare.h */,
+				66C52E0DFF36018F9408E00842D8A2DF /* MBProgressHUD+iShare.m */,
+				A878B6F0A65967EE1323793146FF812F /* NSError+Message.h */,
+				533B2DF29A492971249C5D3E8C39AAF4 /* NSError+Message.m */,
+				64FB43093BF6B4C53C8BB6294A957396 /* UIButton+Block.h */,
+				2452FC365D9018886A702AACBA73B050 /* UIButton+Block.m */,
+				2F09265204A6E97D4D3543A7AAA51485 /* UIColor+Color.h */,
+				60AEA950C8AB2F5B61322093B63239C5 /* UIColor+Color.m */,
+				6BD3E881EAEBBF7A2AE2968D6C219FB9 /* UIDevice+Device.h */,
+				35F239C5454D7A1B8527E2E990D79B7C /* UIDevice+Device.m */,
+				7782A233032401B86E55B93E1827AA9D /* UIImage+Image.h */,
+				FAA75F6550FD470C06D5385B19A95969 /* UIImage+Image.m */,
+				D26FA8AD9B899380ADE3C5FB6276CC22 /* UINavigationController+FullscreenPopGesture.h */,
+				11BA6D5C79DFA4DBDCD56EAF231FF4A9 /* UINavigationController+FullscreenPopGesture.m */,
+				88E36DFD708E11837696839E4A90B80D /* UITabBar+CustomBadge.h */,
+				C19B5895972DA611E2ADD5B95907AED0 /* UITabBar+CustomBadge.m */,
+				593AA3E492615EEE8A2728FFEF177E17 /* UIView+Block.h */,
+				E51F7874D927A58F148ADCF2761DAA42 /* UIView+Block.m */,
+				8028A293A775572DD580B8EE08B43EFF /* UIView+Loading.h */,
+				D6C761B8C89EF24D75066FEC359CC7E0 /* UIView+Loading.m */,
+				0976AD04ECEEFBC78094659813415405 /* ZZCategory.h */,
+				E20E9D5AFB4EC1352C2E6BD38CD73859 /* Pod */,
+				8204BA71C8296D843C7CB523F82D1AF0 /* Support Files */,
 			);
 			name = ZZCategory;
 			path = ../..;
@@ -273,26 +263,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5F5C75D2705810347EEB0E2E6EDDE6A9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				63638FEA115AD8F3F067BAFB64E3E787 /* LICENSE */,
-				8192753EDF2AC995431AB3E04EA11F46 /* README.md */,
-				68F5B3DB94F4874519DDDF4273303B3C /* ZZCategory.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				31E3A29F52735F490C4BFB22405E84DB /* Development Pods */,
+				CEEC86A3F3D2B672C367824D4E3022B0 /* Development Pods */,
 				C3CD8BA08617CB9BBFE5659F0C045F52 /* Frameworks */,
 				5836A44A75C427EBF4739C55E2315758 /* Pods */,
 				264B2A09F2FBDB30BE22F6CDF95DCCD6 /* Products */,
 				3F5B8381DDDEE2F893D255C5329AE51C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8204BA71C8296D843C7CB523F82D1AF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74EF3D339B1E8C3214397DB0EA218C58 /* Info.plist */,
+				F109818F87AA7249349B9ABB1378E0BF /* ZZCategory.modulemap */,
+				9F94A5ADC632E646E9F991692AE21B2C /* ZZCategory.xcconfig */,
+				127A7259B1C0E6F0798FF261E3C22992 /* ZZCategory-dummy.m */,
+				06C034192918758ADD852BC9982A176F /* ZZCategory-prefix.pch */,
+				4AC319FD4673C528BF0D87FC009E644D /* ZZCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZCategory";
 			sourceTree = "<group>";
 		};
 		871CBB0DA7926080514FCF41063084AB /* Pods-ZZCategory_Tests */ = {
@@ -330,6 +324,7 @@
 				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
 				A965BDBE5FC4856535619D751B2F0F38 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -356,6 +351,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CEEC86A3F3D2B672C367824D4E3022B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48AD10C426882274957CC790CD3E7906 /* ZZCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E20E9D5AFB4EC1352C2E6BD38CD73859 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				069BF723C1AEDB55319718ABDE5E85A3 /* LICENSE */,
+				4DBADD3C6AA63A0D48941399B2BADA90 /* README.md */,
+				ED2B90FD49CEA283641FB1C11192015C /* ZZCategory.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -368,29 +381,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3712FDDBA9EBB47B34960A2FA2EB25B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A6789C1A20348C8F0C29FFF37BD000 /* CALayer+PauseAimate.h in Headers */,
+				CBCDBCDFFC2C3177E628FEF1EB5F5A83 /* MBProgressHUD+iShare.h in Headers */,
+				2C1692339A86F90FEDC795FFD5B4D444 /* NSError+Message.h in Headers */,
+				DEBE7CA2E81244C4BF56274567764FA3 /* UIButton+Block.h in Headers */,
+				1A810CA08DCF7140F48080B54C99EB65 /* UIColor+Color.h in Headers */,
+				D78E9F971EEA09B6B2F3FDA12A79398C /* UIDevice+Device.h in Headers */,
+				6996D78695ADB71459FD7EC747470EA4 /* UIImage+Image.h in Headers */,
+				5796C30FF9DF0CD85A4731855CC18EDE /* UINavigationController+FullscreenPopGesture.h in Headers */,
+				BE173D6CCB47C60034F8A1044DEA547B /* UITabBar+CustomBadge.h in Headers */,
+				367D901A1BD9C19A96216D21AC45F421 /* UIView+Block.h in Headers */,
+				C44BC58C1F73CF7CB84F371A6CB0EA75 /* UIView+Loading.h in Headers */,
+				B531B7BA90EDC40EACE0B5EC16FBC8EB /* ZZCategory-umbrella.h in Headers */,
+				6B1A9DAD794F922FFC91F2CE5AEFFED4 /* ZZCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A1737B3DC55C7A33BBE68407C83CDB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				439F33B5DAFB3475D8BBD6E298D83E78 /* Pods-ZZCategory_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B520531D6C2643667FD59CF332B5CED8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				408D82C87808F8F540BA69E5DC544C78 /* CALayer+PauseAimate.h in Headers */,
-				1669009E204A0C6FF9CD3F45AF3BC9B4 /* MBProgressHUD+iShare.h in Headers */,
-				62F4F78ABAEAFBF8BD406C355691EEF9 /* NSError+Message.h in Headers */,
-				B23AE89FC360843F7F6CDF01CEA01C8F /* UIButton+Block.h in Headers */,
-				3DEAFC586297A5F3ADC5E5146FAA2CC5 /* UIColor+Color.h in Headers */,
-				2B92937F2374B55526C8CFF9BA1C88AE /* UINavigationController+FullscreenPopGesture.h in Headers */,
-				5D548A598CF164C62A435FA3A0F0A9A1 /* UITabBar+CustomBadge.h in Headers */,
-				62CB66318FA743CF3420E043D3648B2B /* UIView+Block.h in Headers */,
-				8A6DD157FBF731EEA8F52DAB4BCAF078 /* UIView+Loading.h in Headers */,
-				AC0B12E4BAB09B11C42185511E64BE10 /* ZZCategory-umbrella.h in Headers */,
-				3C84EDAAED1E0A41C0EFC8EE0CB8A10E /* ZZCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,9 +477,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 756CBD316B31FA4F9D25EEEA855289E8 /* Build configuration list for PBXNativeTarget "ZZCategory" */;
 			buildPhases = (
-				F18FD405612F8BEE379A47E3E4C17B6C /* Sources */,
+				04D845DEF545E09A36FD2F7EC6CDFF17 /* Sources */,
 				6592D3DCFBD4AEE464DBECCF8458B967 /* Frameworks */,
-				B520531D6C2643667FD59CF332B5CED8 /* Headers */,
+				3712FDDBA9EBB47B34960A2FA2EB25B8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -506,6 +521,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04D845DEF545E09A36FD2F7EC6CDFF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA18CD697E360F40B153B78B02132B /* CALayer+PauseAimate.m in Sources */,
+				C145C8348E9C59EF2F28DCD516995B53 /* MBProgressHUD+iShare.m in Sources */,
+				CBA0E16C028E82E5A80BCF3174712C09 /* NSError+Message.m in Sources */,
+				C6E069B8E0026C8220D91E8569284022 /* UIButton+Block.m in Sources */,
+				63ACE2A3AB39D528867EDCD593BE428A /* UIColor+Color.m in Sources */,
+				3FADDCDD9C590F14E61896F319DBC6B7 /* UIDevice+Device.m in Sources */,
+				8D0B239366950D9E18CF0050CCA40323 /* UIImage+Image.m in Sources */,
+				1A885204E22C97597CE42097FFC408BE /* UINavigationController+FullscreenPopGesture.m in Sources */,
+				977FD43163B34AE6773B49F7478B2A92 /* UITabBar+CustomBadge.m in Sources */,
+				B36F47DE3ABB83A3B51850901799F021 /* UIView+Block.m in Sources */,
+				8410A9391563CCEC3A414A6BC116AD7C /* UIView+Loading.m in Sources */,
+				51F27AA5B0448FA0800C4E110F1285E7 /* ZZCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F4726AC3A200858DB49D73F95039340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,23 +553,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED88636E88C8AD5B02809CC8C60D987 /* Pods-ZZCategory_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F18FD405612F8BEE379A47E3E4C17B6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46B4BA393D3CC42F6C25F57706546D57 /* CALayer+PauseAimate.m in Sources */,
-				863BBF9F5BC93F171E97297C1B65CFA3 /* MBProgressHUD+iShare.m in Sources */,
-				DE6B29F38C0D4354CB2FE39ED98ACEAD /* NSError+Message.m in Sources */,
-				BB6A39F017A57DB54BC18B080694C5C7 /* UIButton+Block.m in Sources */,
-				1004C8CFDE1240FAE620EFF9F658D3EA /* UIColor+Color.m in Sources */,
-				A32F2BF8EFD30F5C49E910DD6C0149AE /* UINavigationController+FullscreenPopGesture.m in Sources */,
-				38DDA0CA3A7CE2F157A79EAE4E02331B /* UITabBar+CustomBadge.m in Sources */,
-				90204DA4C2282E16FA362AE633F67886 /* UIView+Block.m in Sources */,
-				DFA28F52DFCFF78763C72C32B01270CE /* UIView+Loading.m in Sources */,
-				05163032B8C5F50849C644C7A55ECC1F /* ZZCategory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,7 +621,7 @@
 		};
 		1E1B0D4FFFF3F0B6470AB004A358859C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D72314B9D6A23B058FE4378E5CE3737 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = 9F94A5ADC632E646E9F991692AE21B2C /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -875,7 +892,7 @@
 		};
 		91D32112C2DE79FC362352E8ED80DB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D72314B9D6A23B058FE4378E5CE3737 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = 9F94A5ADC632E646E9F991692AE21B2C /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
