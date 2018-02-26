@@ -9,4 +9,7 @@
 // 恢复动画
 - (void)resumeAnimate;
 
+/** 左右抖动 */
+-(void)shake;
+
 @end
