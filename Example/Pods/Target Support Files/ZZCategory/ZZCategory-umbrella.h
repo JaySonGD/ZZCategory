@@ -22,6 +22,7 @@
 #import "UITabBar+CustomBadge.h"
 #import "UIView+Block.h"
 #import "UIView+Loading.h"
+#import "UIView+PulseView.h"
 #import "ZZCategory.h"
 
 FOUNDATION_EXPORT double ZZCategoryVersionNumber;

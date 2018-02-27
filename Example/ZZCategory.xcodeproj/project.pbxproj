@@ -21,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		691339D32043CA8400F430C9 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 691339D22043CA8400F430C9 /* File.txt */; };
+		691339D62043D5B900F430C9 /* ZZYueYuTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 691339D52043D5B900F430C9 /* ZZYueYuTV.m */; };
 		69F3C3DE202BDCF8002FA24B /* ZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F3C3DD202BDCF8002FA24B /* ZViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -59,6 +61,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		691339D22043CA8400F430C9 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		691339D42043D5B900F430C9 /* ZZYueYuTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZYueYuTV.h; sourceTree = "<group>"; };
+		691339D52043D5B900F430C9 /* ZZYueYuTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYueYuTV.m; sourceTree = "<group>"; };
 		69F3C3DC202BDCF8002FA24B /* ZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewController.h; sourceTree = "<group>"; };
 		69F3C3DD202BDCF8002FA24B /* ZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -156,6 +161,9 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				69F3C3DC202BDCF8002FA24B /* ZViewController.h */,
 				69F3C3DD202BDCF8002FA24B /* ZViewController.m */,
+				691339D22043CA8400F430C9 /* File.txt */,
+				691339D42043D5B900F430C9 /* ZZYueYuTV.h */,
+				691339D52043D5B900F430C9 /* ZZYueYuTV.m */,
 			);
 			name = "Example for ZZCategory";
 			path = ZZCategory;
@@ -291,6 +299,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				691339D32043CA8400F430C9 /* File.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZZAppDelegate.m in Sources */,
+				691339D62043D5B900F430C9 /* ZZYueYuTV.m in Sources */,
 				69F3C3DE202BDCF8002FA24B /* ZViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
