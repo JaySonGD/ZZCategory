@@ -9,12 +9,12 @@
 
 
 typedef NS_ENUM(NSInteger, OptionStyle) {
-    OptionStyleStyleOK_Cancel = 0,
-    OptionStyleStyleOnlyOK
+    OptionStyleOKAndCancel = 0,
+    OptionStyleOnlyOK
 };
 
 
-@interface UIAlertController (Alert)
+@interface UIAlertController (Block)
 
 
 /**

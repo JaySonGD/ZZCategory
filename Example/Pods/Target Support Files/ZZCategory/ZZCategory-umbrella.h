@@ -13,7 +13,7 @@
 #import "CALayer+PauseAimate.h"
 #import "MBProgressHUD+iShare.h"
 #import "NSError+Message.h"
-#import "UIAlertController+Alert.h"
+#import "UIAlertController+Block.h"
 #import "UIButton+Block.h"
 #import "UIColor+Color.h"
 #import "UIDevice+Device.h"

@@ -14,7 +14,7 @@
 
 #import "UIDevice+Device.h"
 #import "UIImage+Image.h"
-#import "UIAlertController+Alert.h"
+#import "UIAlertController+Block.h"
 
 #import "UIView+PulseView.h"
 
